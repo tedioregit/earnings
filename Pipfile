@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+mysqlclient = "*"
+beautifulsoup4 = "*"
+lxml = "*"
+requests = "*"
+django-crispy-forms = "*"
+django-bootstrap4 = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
